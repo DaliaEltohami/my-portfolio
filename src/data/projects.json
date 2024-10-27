@@ -1,0 +1,314 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "React-Shopping-Cart",
+      "category": "fullstack",
+      "src": "/assets/portfolio/pic1.png",
+      "description": "A MERN (MongoDB, Express.js, React.js, Node.js) web application that simulates the functionalities of an e-commerce web application.",
+      "technologies": [
+        "React",
+        "Redux",
+        "MongoDB",
+        "Express.js",
+        "Node.js",
+        "HTML",
+        "CSS"
+      ],
+      "features": [
+        "Product catalog management",
+        "Shopping cart functionality",
+        "Order processing",
+        "Database management"
+      ],
+      "demo": "https://react-shopping-cart-server-fnyj.onrender.com/",
+      "github": "https://github.com/DaliaEltohami/react-shopping-cart"
+    },
+    {
+      "id": 2,
+      "title": "Would-You-Rather-App",
+      "category": "frontend",
+      "src": "/assets/portfolio/pic2.png",
+      "description": "Web App for playing the 'Would You Rather?' game. Users answer questions with two options and cannot select 'neither' or 'both.' They can see unanswered questions, view voting results, post their own questions, and view the leaderboard.",
+      "technologies": ["React", "Redux", "HTML", "CSS"],
+      "features": [
+        "User authentication",
+        "Question answering interface",
+        "Results visualization",
+        "Leaderboard tracking",
+        "Question creation"
+      ],
+      "demo": "https://daliaeltohami.github.io/would-you-rather/",
+      "github": "https://github.com/DaliaEltohami/would-you-rather"
+    },
+    {
+      "id": 6,
+      "title": "My-Reads-React-App",
+      "category": "frontend",
+      "src": "/assets/portfolio/pic6.png",
+      "description": "Bookshelf App that allows you to select and categorize books you have read, are currently reading, or want to read. Uses React and an API server for data persistence.",
+      "technologies": ["React", "HTML", "CSS", "REST API"],
+      "features": [
+        "Book categorization",
+        "Search functionality",
+        "Reading status tracking",
+        "API integration",
+        "Persistent data storage"
+      ],
+      "demo": "https://daliaeltohami.github.io/MyReads/",
+      "github": "https://github.com/DaliaEltohami/MyReads"
+    },
+    {
+      "id": 3,
+      "title": "API-App-Redux-Toolkit",
+      "category": "learning",
+      "src": "/assets/portfolio/pic3.png",
+      "description": "Learn how to make API calls with Redux Toolkit's createAsyncThunk function and update the UI with the response in a simple API app.",
+      "technologies": ["React", "Redux Toolkit", "HTML", "CSS"],
+      "features": [
+        "Async API integration",
+        "Redux Toolkit implementation",
+        "State management patterns",
+        "Error handling",
+        "Loading states"
+      ],
+      "demo": "https://daliaeltohami.github.io/redux-toolkit-app-api-create-asyn-thunk/",
+      "github": "https://github.com/DaliaEltohami/redux-toolkit-app-api-create-asyn-thunk"
+    },
+    {
+      "id": 4,
+      "title": "CRUD-App-Redux-Toolkit",
+      "category": "learning",
+      "src": "/assets/portfolio/pic4.png",
+      "description": "Implementation of CRUD operations in a simple React JS application using Redux Toolkit. Demonstrates modern state management practices.",
+      "technologies": ["React", "Redux Toolkit", "HTML", "CSS"],
+      "features": [
+        "Create operations",
+        "Read operations",
+        "Update operations",
+        "Delete operations",
+        "State management"
+      ],
+      "demo": "https://daliaeltohami.github.io/crud-app-redux-toolkit/",
+      "github": "https://github.com/DaliaEltohami/crud-app-redux-toolkit"
+    },
+    {
+      "id": 5,
+      "title": "React-Redux-Reminder-App",
+      "category": "frontend",
+      "src": "/assets/portfolio/pic5.png",
+      "description": "A simple reminder application for task management, built using React and Redux Libraries. Helps users manage and track their tasks effectively.",
+      "technologies": ["React", "Redux", "HTML", "CSS"],
+      "features": [
+        "Task creation",
+        "Task management",
+        "Reminders",
+        "State persistence"
+      ],
+      "demo": "https://daliaeltohami.github.io/react-redux-reminder-app/",
+      "github": "https://github.com/DaliaEltohami/react-redux-reminder-app"
+    },
+
+    {
+      "id": 7,
+      "title": "React-Weather-App",
+      "category": "frontend",
+      "src": "/assets/portfolio/pic7.png",
+      "description": "Asynchronous React JS Web App that integrates with the OpenWeatherMap API. Users input their location to retrieve real-time weather data.",
+      "technologies": ["React", "HTML", "CSS", "OpenWeatherMap API"],
+      "features": [
+        "Real-time weather data",
+        "Location-based search",
+        "Weather visualization",
+        "API integration"
+      ],
+      "demo": "https://daliaeltohami.github.io/react-weather-app/",
+      "github": "https://github.com/DaliaEltohami/react-weather-app"
+    },
+    {
+      "id": 8,
+      "title": "React-Course-List-App",
+      "category": "frontend",
+      "src": "/assets/portfolio/pic8.png",
+      "description": "React JS Web App that implements read, create, update, and delete features for managing course listings.",
+      "technologies": ["React", "HTML", "CSS"],
+      "features": [
+        "Course creation",
+        "Course listing",
+        "Course editing",
+        "Course deletion",
+        "Data management"
+      ],
+      "demo": "https://daliaeltohami.github.io/react-course-list-app/",
+      "github": "https://github.com/DaliaEltohami/react-course-list-app/settings/pages"
+    },
+    {
+      "id": 9,
+      "title": "React-Todo-List-App",
+      "category": "frontend",
+      "src": "/assets/portfolio/pic9.png",
+      "description": "React JS Web App that implements read, create, and delete operations for managing todo items with component-based architecture.",
+      "technologies": ["React", "HTML", "CSS"],
+      "features": [
+        "Todo creation",
+        "Todo listing",
+        "Todo deletion",
+        "Component architecture",
+        "State management"
+      ],
+      "demo": "https://daliaeltohami.github.io/react-todolist-with-components/",
+      "github": "https://github.com/DaliaEltohami/react-todolist-with-components"
+    },
+    {
+      "id": 10,
+      "title": "React-Template-Huddle",
+      "category": "landing",
+      "src": "/assets/portfolio/pic10.png",
+      "description": "Responsive website Landing page built with React JS components and styled with the styled-components technique.",
+      "technologies": ["React", "Styled Components", "HTML", "CSS"],
+      "features": [
+        "Responsive design",
+        "Component-based architecture",
+        "Modern UI/UX",
+        "CSS-in-JS implementation"
+      ],
+      "demo": "https://daliaeltohami.github.io/react-styled-component/",
+      "github": "https://github.com/DaliaEltohami/react-styled-component"
+    },
+    {
+      "id": 11,
+      "title": "React-Template-Ultra",
+      "category": "landing",
+      "src": "/assets/portfolio/pic11.png",
+      "description": "A website template comprising two pages built using React JS components and styled with the styled-components technique.",
+      "technologies": ["React", "Styled Components", "HTML", "CSS"],
+      "features": [
+        "Multi-page layout",
+        "Styled components",
+        "Modern aesthetics",
+        "Reusable components"
+      ],
+      "demo": "https://daliaeltohami.github.io/react-template-ultra/",
+      "github": "https://github.com/DaliaEltohami/react-template-ultra"
+    },
+    {
+      "id": 12,
+      "title": "Weather-Journal-App",
+      "category": "fullstack",
+      "src": "/assets/portfolio/pic12.png",
+      "description": "Create an asynchronous web app that integrates with the OpenWeatherMap API. Features server-side routing and real-time weather data retrieval based on user location.",
+      "technologies": ["Node.js", "Express", "JavaScript", "HTML", "CSS"],
+      "features": [
+        "Server-side API integration",
+        "Asynchronous data fetching",
+        "Weather data visualization",
+        "Location-based search",
+        "RESTful architecture"
+      ],
+      "demo": "https://daliaeltohami.github.io/Weather-Journal-App/my_project/index.html",
+      "github": "https://github.com/DaliaEltohami/Weather-Journal-App"
+    },
+    {
+      "id": 13,
+      "title": "Shopping-Cart-App-Vanilla-JS",
+      "category": "frontend",
+      "src": "/assets/portfolio/pic13.png",
+      "description": "Shopping cart application built using vanilla JS. It demonstrates e-commerce functionality and uses simple login authentication with local storage as the database.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Local Storage API"],
+      "features": [
+        "Shopping cart management",
+        "Local storage persistence",
+        "User authentication",
+        "Product catalog",
+        "Cart calculations"
+      ],
+      "demo": "https://daliaeltohami.github.io/Shopping-Cart-App-Vanilla-JS-/",
+      "github": "https://github.com/DaliaEltohami/Shopping-Cart-App-Vanilla-JS-"
+    },
+    {
+      "id": 14,
+      "title": "Landing-page",
+      "category": "landing",
+      "src": "/assets/portfolio/pic14.png",
+      "description": "Landing Page that uses HTML, CSS, and Vanilla JavaScript to create an interactive navigational experience for the user.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "features": [
+        "Interactive navigation",
+        "Responsive design",
+        "Smooth scrolling",
+        "Dynamic content",
+        "Modern UI elements"
+      ],
+      "demo": "https://daliaeltohami.github.io/Landing-Page/",
+      "github": "https://github.com/DaliaEltohami/Landing-Page"
+    },
+    {
+      "id": 15,
+      "title": "Arabic-Bootstrap-Template",
+      "category": "landing",
+      "src": "/assets/portfolio/pic15.png",
+      "description": "A responsive Bootstrap template designed specifically for Arabic websites, featuring RTL support and culturally appropriate design elements.",
+      "technologies": ["Bootstrap", "HTML", "CSS"],
+      "features": [
+        "RTL support",
+        "Arabic typography",
+        "Responsive design",
+        "Bootstrap components",
+        "Cultural customization"
+      ],
+      "demo": "https://daliaeltohami.github.io/arabic-bootstrap-template",
+      "github": "https://github.com/DaliaEltohami/arabic-bootstrap-template"
+    },
+    {
+      "id": 16,
+      "title": "Responsive-Bootstrap-Template",
+      "category": "landing",
+      "src": "/assets/portfolio/pic16.png",
+      "description": "A fully responsive website template built using Bootstrap framework, showcasing modern design principles and responsive layouts.",
+      "technologies": ["Bootstrap", "HTML", "CSS"],
+      "features": [
+        "Responsive grid system",
+        "Mobile-first design",
+        "Bootstrap components",
+        "Custom styling",
+        "Cross-browser compatibility"
+      ],
+      "demo": "https://daliaeltohami.github.io/responsive-bootstrap-template/src/index.html",
+      "github": "https://github.com/DaliaEltohami/responsive-bootstrap-template"
+    },
+    {
+      "id": 17,
+      "title": "HTML-CSS-Versions-Template",
+      "category": "landing",
+      "src": "/assets/portfolio/pic17.png",
+      "description": "A CSS3 and HTML5 website template showcasing various design effects and CSS features, demonstrating modern web development techniques.",
+      "technologies": ["HTML5", "CSS3"],
+      "features": [
+        "Modern CSS effects",
+        "HTML5 semantic elements",
+        "Responsive design",
+        "CSS animations",
+        "Flexbox layouts"
+      ],
+      "demo": "https://daliaeltohami.github.io/HTML-CSS-Versions/",
+      "github": "https://github.com/DaliaEltohami/HTML-CSS-Versions"
+    },
+    {
+      "id": 18,
+      "title": "HTML4-CSS2-Template",
+      "category": "landing",
+      "src": "/assets/portfolio/pic18.png",
+      "description": "A website template consisting of two HTML4 and CSS2 pages with various effects, features, and design ideas, showcasing legacy web development practices.",
+      "technologies": ["HTML4", "CSS2"],
+      "features": [
+        "Classic layout techniques",
+        "CSS2 styling effects",
+        "Multi-page structure",
+        "Legacy browser support",
+        "Traditional design patterns"
+      ],
+      "demo": "https://daliaeltohami.github.io/HTML4_CSS2_Template1/index.html",
+      "github": "https://github.com/DaliaEltohami/HTML4_CSS2_Template1"
+    }
+  ]
+}

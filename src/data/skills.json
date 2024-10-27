@@ -1,0 +1,98 @@
+{
+  "categories": {
+    "frontend": {
+      "icon": "code2",
+      "title": "Frontend Development",
+      "description": "Core technologies and frameworks I use to build modern web applications",
+      "skills": [
+        {
+          "name": "React Ecosystem",
+          "items": [
+            "React.js",
+            "Redux",
+            "Redux Toolkit",
+            "React Router DOM",
+            "React Query"
+          ],
+          "proficiency": 90
+        },
+        {
+          "name": "Core Web",
+          "items": ["HTML", "CSS", "JavaScript", "TypeScript"],
+          "proficiency": 95
+        },
+        {
+          "name": "Modern Frameworks",
+          "items": ["Next.js", "jQuery"],
+          "proficiency": 85
+        }
+      ]
+    },
+    "styling": {
+      "icon": "palette",
+      "title": "Styling & Design",
+      "description": "Tools and technologies I use to create beautiful, responsive interfaces",
+      "skills": [
+        {
+          "name": "CSS Frameworks",
+          "items": ["Tailwind CSS", "Bootstrap", "Sass"],
+          "proficiency": 88
+        },
+        {
+          "name": "Design Systems",
+          "items": ["Styled Components", "Responsive Design", "CSS Modules"],
+          "proficiency": 85
+        },
+        {
+          "name": "UI/UX",
+          "items": ["Component Design", "Animations", "Layout Systems"],
+          "proficiency": 82
+        }
+      ]
+    },
+    "tools": {
+      "icon": "wrench",
+      "title": "Development Tools",
+      "description": "Professional tools I use for development and deployment",
+      "skills": [
+        {
+          "name": "Version Control",
+          "items": ["Git", "GitHub", "Code Review"],
+          "proficiency": 88
+        },
+        {
+          "name": "Development",
+          "items": ["VS Code", "DevTools", "Chrome Extensions"],
+          "proficiency": 92
+        },
+        {
+          "name": "Deployment",
+          "items": ["Heroku", "Render"],
+          "proficiency": 85
+        }
+      ]
+    },
+    "backend": {
+      "icon": "terminal",
+      "title": "Backend & Tools",
+      "description": "Supporting technologies I use for full-stack development",
+      "skills": [
+        {
+          "name": "Backend Technologies",
+          "items": ["Node.js", "Express.js", "RESTful APIs"],
+          "proficiency": 75
+        },
+        {
+          "name": "Testing & Quality",
+          "items": ["Testing", "Debugging", "Performance Optimization"],
+          "proficiency": 80
+        },
+        {
+          "name": "Project Management",
+          "items": ["Trello", "Agile", "Documentation"],
+          "proficiency": 85
+        }
+      ]
+    }
+  }
+}
