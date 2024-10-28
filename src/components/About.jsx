@@ -3,14 +3,14 @@ import React from "react";
 const About = () => {
   return (
     <div
-      name="about"
+      id="about"
       className="w-full bg-gradient-to-b from-gray-800 to-black p-20 pb-40 text-white"
     >
       <div className="max-w-screen-xl w-full h-full flex flex-col justify-center items-start m-auto">
         <div className="pb-28">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
+          <h2 className="text-4xl font-bold inline-block border-b-4 border-blue-500 pb-2">
             About
-          </p>
+          </h2>
         </div>
 
         {/* Main Introduction */}

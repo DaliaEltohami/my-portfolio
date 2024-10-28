@@ -38,15 +38,15 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
+      id="experience"
       className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-gray-100 py-20 px-4 sm:px-8"
     >
       <div className="max-w-screen-xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-4xl font-bold border-b-4 border-gray-500 inline-block mb-4">
+          <h2 className="text-4xl font-bold inline-block border-b-4 border-blue-500 pb-2">
             Experience
           </h2>
-          <p className="text-xl text-gray-300">
+          <p className="mt-6 text-gray-400 text-lg">
             Comprehensive overview of my technical expertise and skills
           </p>
         </div>
@@ -89,7 +89,7 @@ const Experience = () => {
             {categories[activeCategory].skills.map((skillGroup, index) => (
               <div key={index} className="space-y-4">
                 <div className="flex items-center justify-between gap-4">
-                  <h4 className="text-lg font-medium text-gray-200 whitespace-nowrap w-2/12">
+                  <h4 className="text-lg font-medium text-gray-200 whitespace-nowrap w-2/12 text-wrap">
                     {skillGroup.name}
                   </h4>
                   <SkillBar proficiency={skillGroup.proficiency} />

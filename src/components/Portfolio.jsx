@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
       {/* Image Container */}
       <div className="relative h-48 flex-shrink-0">
         <img
-          src={project.src}
+          src={`${process.env.PUBLIC_URL}/${project.src}`}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
@@ -95,10 +95,10 @@ const Portfolio = () => {
 
   const categories = [
     { id: "all", label: "All Projects" },
-    { id: "learning", label: "Learning & Concepts" },
+    { id: "frontend", label: "Frontend Apps" },
     { id: "fullstack", label: "Full Stack Apps" },
     { id: "landing", label: "Landing Pages" },
-    { id: "frontend", label: "Frontend Apps" },
+    { id: "learning", label: "Learning & Concepts" },
   ];
 
   const filteredProjects =
@@ -119,16 +119,16 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
+      id="portfolio"
       className="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-gray-100 p-8 md:p-20"
     >
       <div className="max-w-screen-xl mx-auto">
         {/* Header Section */}
         <div className="mb-12 md:mb-20">
-          <h2 className="text-4xl font-bold border-b-4 border-gray-500 inline-block mb-4">
+          <h2 className="text-4xl font-bold inline-block border-b-4 border-blue-500 pb-2">
             Portfolio
           </h2>
-          <p className="text-xl text-gray-300">
+          <p className="mt-6 text-gray-400 text-lg">
             Crafting Digital Experiences Through Code
           </p>
         </div>
