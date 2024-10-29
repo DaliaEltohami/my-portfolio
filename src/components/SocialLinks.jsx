@@ -44,7 +44,7 @@ const SocialLinks = () => {
           <BsPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/eng_dalia_eltohami_cv.pdf",
       style: "rounded-br-md",
       download: true,
     },
