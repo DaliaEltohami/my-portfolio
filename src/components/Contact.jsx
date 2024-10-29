@@ -60,7 +60,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full bg-gradient-to-b from-black to-gray-800 text-gray-100 py-20"
+      className="w-full bg-gradient-to-b from-black to-gray-800 text-gray-100 px-8 py-12 md:p-20"
     >
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">

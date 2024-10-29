@@ -120,7 +120,7 @@ const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-gray-100 p-8 md:p-20"
+      className="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-gray-100 px-8 py-12 md:p-20"
     >
       <div className="max-w-screen-xl mx-auto">
         {/* Header Section */}

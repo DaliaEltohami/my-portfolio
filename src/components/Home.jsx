@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="bg-gradient-to-b from-black via-black to-gray-800 w-full pt-60  pb-32"
+      className="bg-gradient-to-b from-black via-black to-gray-800 w-full pt-24 lg:pt-52  py-12 md:p-20"
     >
       <div className="flex flex-col lg:flex-row text-white h-full items-center justify-center p-16 m-auto max-w-screen-xl w-full">
         <div className="flex-1 flex flex-col justify-center items-center lg:items-start  space-y-6">
@@ -48,7 +48,7 @@ const Home = () => {
 
         <div className="h-full flex flex-col justify-start items-center flex-1 p-4 my-5 ">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/myimage.jpeg`}
+            src={`${process.env.PUBLIC_URL}/assets/myimage3.png`}
             alt="my profile"
             className="rounded-2xl w-2/3 h-2/3  md:h-1/2 object-cover"
             // className="rounded-2xl w-2/3 h-2/3 md:w-2/3 md:h-1/2 relative object-cover hover:scale-105 transition-transform duration-300"
