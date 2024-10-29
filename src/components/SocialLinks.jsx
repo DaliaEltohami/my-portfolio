@@ -44,7 +44,7 @@ const SocialLinks = () => {
           <BsPersonLinesFill size={30} />
         </>
       ),
-      href: "/eng_dalia_eltohami_cv.pdf",
+      href: "eng_dalia_eltohami_cv.pdf",
       style: "rounded-br-md",
       download: true,
     },
@@ -59,7 +59,7 @@ const SocialLinks = () => {
             className={`bg-gray-500 p-4 h-14 w-40 ml-[-100px] hover:ml-[-10px] duration-300 ease-out hover:rounded-md ${style}`}
           >
             <a
-              href={href}
+              href={`${process.env.PUBLIC_URL}/${href}`}
               target="_blank"
               rel="noreferrer"
               download={download}
