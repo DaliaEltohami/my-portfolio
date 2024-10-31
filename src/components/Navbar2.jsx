@@ -1,6 +1,6 @@
-import { ChevronRight, Menu, X } from "lucide-react";
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { Link } from "react-scroll";
+import { Menu, X, ChevronRight } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,61 +18,37 @@ const Navbar = () => {
     []
   );
 
-  const handleScroll = useCallback(() => {
-    setScrolled(window.scrollY > 50);
-  }, []);
-
+  // Handle navbar background change on scroll
   useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+      console.log(scrolled);
+    };
     window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [handleScroll]);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [scrolled]);
 
-  const handleSpy = useCallback(() => {
-    const sections = links.map(({ link }) => document.getElementById(link));
-    const windowOffset = window.scrollY + 150;
-
-    // let newActiveSection = activeSection;
-
-    for (let i = 0; i < sections.length; i++) {
-      const section = sections[i];
-      if (!section) continue;
-
-      const Offset = section.offsetTop;
-      const height = section.offsetHeight;
-
-      if (windowOffset >= Offset && windowOffset < Offset + height) {
-        if (activeSection !== section.id) {
-          setActiveSection(section.id);
-        }
-        break;
-      }
-    }
-  }, [links, activeSection]);
-
+  // Handle scroll spy
   useEffect(() => {
-    let timeoutId = null;
+    const handleSpy = () => {
+      const sections = links.map(({ link }) => document.getElementById(link));
+      const scrollPosition = window.scrollY + 150;
 
-    const throttlingHandleSpy = () => {
-      if (!timeoutId) {
-        timeoutId = setTimeout(() => {
-          handleSpy();
-          timeoutId = null;
-        }, 100);
+      const currentSection = sections.find((section) => {
+        if (!section) return false;
+        const offset = section.offsetTop;
+        const height = section.offsetHeight;
+        return scrollPosition >= offset && scrollPosition < offset + height;
+      });
+
+      if (currentSection) {
+        setActiveSection(currentSection.id);
       }
     };
 
-    handleSpy();
-
-    window.addEventListener("scroll", throttlingHandleSpy);
-    return () => {
-      window.removeEventListener("scroll", throttlingHandleSpy);
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-    };
-  }, [handleSpy]);
+    window.addEventListener("scroll", handleSpy);
+    return () => window.removeEventListener("scroll", handleSpy);
+  }, [activeSection, links]);
 
   return (
     <nav
@@ -122,7 +98,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md hover:text-primary hover:bg-black/5 transition-colors"
+              className="inline-flex items-center justify-center p-2 rounded-md hover:text-blue-500 hover:bg-black/5 transition-colors"
               aria-expanded="false"
             >
               {isOpen ? (
@@ -136,32 +112,25 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <div
-        className={`md:hidden transition-all duration-300 ease-in-out ${
-          isOpen ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full"
-        } fixed inset-0 bg-black/95 backdrop-blur-sm`}
-      >
-        <div className="pt-20 pb-3 space-y-1 px-4">
-          {links.map(({ id, link, label }) => (
-            <Link
-              key={id}
-              to={link}
-              smooth
-              duration={500}
-              onClick={() => setIsOpen(false)}
-              className={`flex items-center justify-between cursor-pointer hover:bg-black/20 px-3 py-4 rounded-md text-lg font-medium transition-all
-                ${
-                  activeSection === link
-                    ? "text-primary"
-                    : "text-gray-300 hover:text-primary"
-                }`}
-            >
-              {label}
-              <ChevronRight className="h-5 w-5" />
-            </Link>
-          ))}
+      {isOpen && (
+        <div className="absolute top-0 right-0 bg-gradient-to-b h-screen w-full flex justify-center items-center flex-col from-black to-gray-800 text-gray-500 md:hidden">
+          <div className=" space-y-1 py-28 p-16 h-full w-full flex flex-col justify-around ">
+            {links.map(({ id, link, label }) => (
+              <Link
+                key={id}
+                to={link}
+                smooth
+                duration={500}
+                onClick={() => setIsOpen(false)}
+                className="flex flex-1 items-center justify-between cursor-pointer text-gray-300 hover:text-primary hover:bg-black/20 px-3 py-4 rounded-md text-lg font-medium transition-all"
+              >
+                {label}
+                <ChevronRight className="h-5 w-5" />
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </nav>
   );
 };
