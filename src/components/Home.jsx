@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="bg-gradient-to-b from-black via-black to-gray-800 w-full pt-24 lg:pt-52  py-12 md:p-20"
+      className="bg-gradient-to-b from-black via-black to-gray-800 w-full pt-24 py-12 md:p-20"
     >
-      <div className="flex flex-col lg:flex-row text-white h-full items-center justify-center p-16 m-auto max-w-screen-xl w-full">
+      <div className="flex flex-col-reverse lg:flex-row text-white h-full items-center justify-center px-16 lg:p-16 m-auto max-w-screen-xl w-full">
         <div className="flex-1 flex flex-col justify-center items-center lg:items-start  space-y-6">
           <div className="text-blue-500 font-semibold mb-2">
             👋 Welcome to my portfolio
@@ -23,6 +23,16 @@ const Home = () => {
             Crafting responsive and user-centric web experiences
           </h3>
           <p className="text-gray-500 py-4 max-w-md text-center lg:text-left">
+            Passionate Front-End Web Developer with a Computer Science degree
+            (honors) and proven expertise in building responsive, user-centric
+            web applications. Specializes in the React ecosystem and modern
+            JavaScript frameworks. I have a solid background in the management
+            field and digital transformation, which allows me to deeply
+            understand user experiences and address real business needs. I’m
+            dedicated to writing clean, efficient code and bringing innovative
+            ideas to life through impactful solutions.
+          </p>
+          {/* <p className="text-gray-500 py-4 max-w-md text-center lg:text-left">
             Passionate Front-End Developer with a Computer Science background,
             specializing in creating responsive, user-centric web applications.
             With a unique journey from digital transformation to development, I
@@ -30,7 +40,7 @@ const Home = () => {
             exceptional digital experiences. Currently focused on React
             ecosystem and modern web technologies, I'm ready to take on
             challenging projects that push the boundaries of web development.
-          </p>
+          </p> */}
           <div className="w-4/6 sm:w-auto">
             <Link
               to="portfolio"

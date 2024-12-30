@@ -1,6 +1,33 @@
 {
   "projects": [
     {
+      "id": 19,
+      "title": "JWT Authentication App",
+      "category": "fullstack",
+      "src": "/assets/portfolio/pic19.png",
+      "description": "A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that demonstrates the implementation of JWT (JSON Web Tokens) for user authentication and authorization.",
+      "technologies": [
+        "React",
+        "React Router DOM",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "HTML",
+        "CSS",
+        "Ant Design (antd)"
+      ],
+      "features": [
+        "User registration and login",
+        "JWT-based authentication and authorization",
+        "Protected routes",
+        "Password hashing",
+        "Session management"
+      ],
+      "demo": "https://jwtauthenticationapp-adtwypxz.b4a.run/",
+      "github": "https://github.com/DaliaEltohami/jwt-authentication-app-server"
+    },
+    {
       "id": 1,
       "title": "React-Shopping-Cart",
       "category": "fullstack",
