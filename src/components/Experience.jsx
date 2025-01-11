@@ -28,7 +28,7 @@ const Experience = () => {
   const categories = skillsData.categories;
 
   const SkillBar = ({ proficiency }) => (
-    <div className="w-10/12 bg-gray-700 h-1.5 rounded-full overflow-hidden">
+    <div className="flex-1 md:grow-[2]  bg-gray-700 h-1.5 rounded-full overflow-hidden">
       <div
         className="h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-1000 ease-out"
         style={{ width: `${proficiency}%` }}
@@ -89,7 +89,7 @@ const Experience = () => {
             {categories[activeCategory].skills.map((skillGroup, index) => (
               <div key={index} className="space-y-4">
                 <div className="flex items-center justify-between gap-4">
-                  <h4 className="text-lg font-medium text-gray-200 whitespace-nowrap w-2/12 text-wrap">
+                  <h4 className="flex-1 text-lg font-medium text-gray-200 whitespace-nowrap w-2/12 text-wrap">
                     {skillGroup.name}
                   </h4>
                   <SkillBar proficiency={skillGroup.proficiency} />

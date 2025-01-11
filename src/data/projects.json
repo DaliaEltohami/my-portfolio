@@ -1,6 +1,34 @@
 {
   "projects": [
     {
+      "id": 20,
+      "title": "Dalique Stays App",
+      "category": "fullstack",
+      "src": "/assets/portfolio/pic20.png",
+      "description": "Dalique Stays is A full-stack MERN web application for hotel booking, featuring a guest portal for secure reservations and an admin dashboard for hotel management with Stripe integration.",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Stripe",
+        "JWT",
+        "HTML",
+        "CSS"
+      ],
+      "features": [
+        "User Authentication (JWT)",
+        "Hotel information display",
+        "Real-time room booking",
+        "Stripe Payment Gateway",
+        "Admin dashboard",
+        "Add and manage rooms",
+        "Monitor guest reservations"
+      ],
+      "demo": "https://daliquestaysapp-tyh3vf43.b4a.run/app",
+      "github": "https://github.com/DaliaEltohami/dalique-stays-app"
+    },
+    {
       "id": 19,
       "title": "JWT Authentication App",
       "category": "fullstack",

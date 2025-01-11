@@ -35,7 +35,7 @@
       "skills": [
         {
           "name": "CSS Frameworks",
-          "items": ["Tailwind CSS", "Bootstrap", "Sass"],
+          "items": ["Tailwind CSS", "Ant Design", "Bootstrap", "Sass"],
           "proficiency": 88
         },
         {
@@ -67,7 +67,7 @@
         },
         {
           "name": "Deployment",
-          "items": ["Heroku", "Render"],
+          "items": ["Heroku", "Render", "GitHub Pages", "Back4app"],
           "proficiency": 85
         }
       ]
