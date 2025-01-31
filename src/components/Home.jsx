@@ -22,7 +22,7 @@ const Home = () => {
           <h3 className="text-xl text-gray-400">
             Crafting responsive and user-centric web experiences
           </h3>
-          <p className="text-gray-500 py-4 max-w-md text-center lg:text-left">
+          <p className="text-gray-500 py-4 max-w-md text-justify">
             Passionate Front-End Web Developer with a Computer Science degree
             (honors) and proven expertise in building responsive, user-centric
             web applications. Specializes in the React ecosystem and modern
@@ -41,14 +41,14 @@ const Home = () => {
             ecosystem and modern web technologies, I'm ready to take on
             challenging projects that push the boundaries of web development.
           </p> */}
-          <div className="w-4/6 sm:w-auto">
+          <div className="w-auto">
             <Link
               to="portfolio"
               smooth
               duration={500}
               className="group cursor-pointer text-white rounded-md flex items-center justify-center w-full sm:w-fit px-6 py-3 bg-blue-600 hover:bg-blue-700 transition-all duration-300 hover:scale-105"
             >
-              portofolio
+              Check My Work
               <span className="group-hover:rotate-90 duration-300 ease-out">
                 <MdKeyboardDoubleArrowRight size={25} />
               </span>
