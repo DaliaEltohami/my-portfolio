@@ -23,7 +23,8 @@
         "Stripe Payment Gateway",
         "Admin dashboard",
         "Add and manage rooms",
-        "Monitor guest reservations"
+        "Monitor guest reservations",
+        "Responsive design"
       ],
       "demo": "https://daliquestaysapp-tyh3vf43.b4a.run/",
       "github": "https://github.com/DaliaEltohami/dalique-stays-booking-app"
