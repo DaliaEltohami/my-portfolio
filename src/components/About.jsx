@@ -12,32 +12,58 @@ const About = () => {
             About
           </h2>
         </div>
-
         {/* Main Introduction */}
+        {/* <p className="text-l text-gray-400 text-justify">
+          A Front-End Developer with a Computer Science degree, I’m passionate
+          about building intuitive, user-focused web experiences. I started my
+          web development journey by mastering the fundamentals—HTML, CSS, and
+          JavaScript—and I’m now expanding my skills in React and its ecosystem,
+          including Redux, and NextJS by building real projects and learning
+          hands-on every day.
+          <br />
+          <br />
+          My previous experience in administration and digital transformation
+          taught me how to connect technical solutions with real business needs.
+          Over the past couple of years, I’ve been actively developing my
+          front-end skills through online learning (including Nanodegrees from
+          Udacity), tutorials, and most importantly—building real-world projects
+          that I’ve proudly showcased in my portfolio. These hands-on projects
+          gave me the opportunity to apply what I’ve learned, practice solving
+          real problems, and develop responsive, user-friendly interfaces from
+          the ground up.
+          <br />
+          <br />
+          I’m passionate about clean, intuitive design, and I love turning ideas
+          into interactive experiences. I'm always eager to grow, collaborate
+          with others, and contribute to meaningful products that make a real
+          impact.
+        </p> */}
         <p className="text-l text-gray-400 text-justify">
-          As a Front-End Developer with a Computer Science degree from Mansoura
-          University, I thrive on turning complex ideas into seamless,
-          high-performance web experiences. My journey from administration and
-          digital transformation to front-end development has given me a unique
-          perspective—one that bridges technical excellence with business
-          insight.
+          <b>
+            A Front-End Developer with a Computer Science degree, I’m passionate
+            about building intuitive, user-focused web experiences.
+          </b>
           <br />
-          Over the past two years, I’ve immersed myself in modern web
-          development, building a strong foundation in core web technologies
-          like HTML, CSS, and JavaScript, while specializing in Single Page
-          Application (SPA) frameworks such as React and its ecosystem,
-          including Redux. Beyond writing clean, maintainable code, I’m
-          passionate about building applications that are not just functional
-          but intuitive and impactful. My ability to adapt, learn, and optimize
-          allows me to create solutions that align with both user needs and
-          business goals.
+          <br /> I started my web development journey by mastering the
+          fundamentals—HTML, CSS, and JavaScript—and I’m now expanding my skills
+          in React, its ecosystem (including Redux), and Next.js by building
+          real projects and learning hands-on every day.
           <br />
-          I’m always pushing my technical boundaries, refining my skills, and
-          embracing new challenges. Whether it’s crafting dynamic interfaces,
-          optimizing performance, or integrating scalable architectures, I bring
-          dedication and problem-solving to every project. Driven by curiosity
-          and a relentless pursuit of excellence, I’m excited to contribute to
-          forward-thinking teams and build solutions that make a difference.
+          <br /> My previous experience in administration and digital
+          transformation taught me how to connect technical solutions with real
+          business needs. Over the past couple of years, I’ve been actively
+          developing my front-end skills through online learning (including
+          Nanodegrees from Udacity), YouTube tutorials, and—most importantly—by
+          building real-world projects that I’ve proudly showcased in my
+          portfolio.
+          <br />
+          <br /> These hands-on projects gave me the opportunity to apply what
+          I’ve learned, solve real problems, and develop responsive,
+          user-friendly interfaces from the ground up. I’m passionate about
+          clean, intuitive design, and I love turning ideas into interactive
+          experiences.
+          <br /> <br /> I'm always eager to grow, collaborate with others, and
+          contribute to meaningful products that make a real impact.
         </p>
         <br />
       </div>
