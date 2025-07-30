@@ -1,0 +1,34 @@
+{
+  "technologies": [
+    { "name": "HTML", "image": "/assets/experience/html.svg" },
+    { "name": "CSS", "image": "/assets/experience/css.png" },
+    { "name": "JS", "image": "/assets/experience/js.svg" },
+    { "name": "React", "image": "/assets/experience/react1.svg" },
+    { "name": "React Query", "image": "/assets/experience/React-Query.svg" },
+    { "name": "React Router", "image": "/assets/experience/react-router.svg" },
+    { "name": "Redux", "image": "/assets/experience/redux.svg" },
+    { "name": "tailwind", "image": "/assets/experience/tailwind.svg" },
+
+    { "name": "Bootstrap", "image": "/assets/experience/Bootstrap.svg" },
+    { "name": "Ant Design", "image": "/assets/experience/Antd.svg" },
+
+    {
+      "name": "Styled Components",
+      "image": "/assets/experience/Styled-Components.svg"
+    },
+    { "name": "Node JS", "image": "/assets/experience/nodejs.svg" },
+    { "name": "Express JS", "image": "/assets/experience/expressjs.png" },
+    { "name": "Git", "image": "/assets/experience/git.svg" },
+    { "name": "GitHub", "image": "/assets/experience/github-icon.png" },
+
+    { "name": "Vite", "image": "/assets/experience/vite.svg" },
+    { "name": "VS Code", "image": "/assets/experience/vscode.svg" },
+    { "name": "Vercel", "image": "/assets/experience/vercel.png" },
+    { "name": "render", "image": "/assets/experience/render-seeklogo.png" },
+    { "name": "Heroku", "image": "/assets/experience/heroku.svg" },
+    {
+      "name": "Chrome Devtools",
+      "image": "/assets/experience/chrome-devtools.svg"
+    }
+  ]
+}
