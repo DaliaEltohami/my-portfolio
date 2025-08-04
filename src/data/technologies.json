@@ -7,7 +7,7 @@
     { "name": "React Query", "image": "/assets/experience/React-Query.svg" },
     { "name": "React Router", "image": "/assets/experience/react-router.svg" },
     { "name": "Redux", "image": "/assets/experience/redux.svg" },
-    { "name": "tailwind", "image": "/assets/experience/tailwind.svg" },
+    { "name": "Tailwind", "image": "/assets/experience/tailwind.svg" },
 
     { "name": "Bootstrap", "image": "/assets/experience/Bootstrap.svg" },
     { "name": "Ant Design", "image": "/assets/experience/Antd.svg" },
@@ -23,8 +23,8 @@
 
     { "name": "Vite", "image": "/assets/experience/vite.svg" },
     { "name": "VS Code", "image": "/assets/experience/vscode.svg" },
-    { "name": "Vercel", "image": "/assets/experience/vercel.png" },
-    { "name": "render", "image": "/assets/experience/render-seeklogo.png" },
+    { "name": "Vercel", "image": "/assets/experience/Vercel.png" },
+    { "name": "Render", "image": "/assets/experience/render-seeklogo.png" },
     { "name": "Heroku", "image": "/assets/experience/heroku.svg" },
     {
       "name": "Chrome Devtools",
