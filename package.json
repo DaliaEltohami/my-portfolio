@@ -1,6 +1,6 @@
 {
-  "homepage": "http://daliaeltohami.github.io/my-portfolio",
   "name": "my-portofolio",
+  "homepage": "http://daliaeltohami.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

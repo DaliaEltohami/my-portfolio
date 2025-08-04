@@ -1,23 +1,9 @@
-import React, { useState } from "react";
-import {
-  ChevronRight,
-  Code2,
-  Palette,
-  Terminal,
-  WrenchIcon,
-} from "lucide-react";
 import technologies from "../data/technologies.json";
 
 const Skills = () => {
   console.log(technologies);
 
   // Map of icon strings to Lucide React components
-  const iconComponents = {
-    code2: Code2,
-    palette: Palette,
-    wrench: WrenchIcon,
-    terminal: Terminal,
-  };
 
   const techs = technologies.technologies;
 
@@ -46,7 +32,7 @@ const Skills = () => {
             >
               <div className="w-20 h-20 flex items-center justify-center ">
                 <img
-                  src={`${process.env.PUBLIC_URL}/${tech.image}`}
+                  src={`${process.env.PUBLIC_URL}${tech.image}`}
                   alt="tech-image"
                   className="w-full h-full object-contain"
                 />

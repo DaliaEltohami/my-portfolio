@@ -58,7 +58,7 @@ const Home = () => {
 
         <div className="h-full flex flex-col justify-start items-center flex-1 p-4 my-5 ">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/myimage3.png`}
+            src={`${process.env.PUBLIC_URL}assets/myimage3.png`}
             alt="my profile"
             className="rounded-2xl w-2/3 h-2/3 md:h-1/2 object-cover lg:ml-auto"
             // className="rounded-2xl w-2/3 h-2/3 md:w-2/3 md:h-1/2 relative object-cover hover:scale-105 transition-transform duration-300"

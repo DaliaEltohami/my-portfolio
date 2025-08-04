@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
       {/* Image Container */}
       <div className="relative h-48 flex-shrink-0">
         <img
-          src={`${process.env.PUBLIC_URL}/${project.src}`}
+          src={`${process.env.PUBLIC_URL}${project.src}`}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
