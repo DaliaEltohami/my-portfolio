@@ -3,7 +3,7 @@
     {
       "id": 20,
       "title": "TMDB Movie App",
-      "category": "frontend",
+      "category": "fullstack",
       "src": "/assets/portfolio/pic21.png",
       "description": "web application designed for movie and TV show enthusiasts. Built with React and styled using Tailwind CSS, this app leverages the TMDB API to provide users with an immersive entertainment experience.",
       "technologies": [
