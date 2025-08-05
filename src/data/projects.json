@@ -2,6 +2,38 @@
   "projects": [
     {
       "id": 20,
+      "title": "TMDB Movie App",
+      "category": "frontend",
+      "src": "/assets/portfolio/pic21.png",
+      "description": "web application designed for movie and TV show enthusiasts. Built with React and styled using Tailwind CSS, this app leverages the TMDB API to provide users with an immersive entertainment experience.",
+      "technologies": [
+        "React.js",
+        "TMDB API",
+        "Appwrite",
+        "React Router DOM",
+        "Tailwind CSS",
+        "React Spinner",
+        "React Icons",
+        "HTML",
+        "CSS",
+        "Vite",
+        "Vercel"
+      ],
+      "features": [
+        "Browse trending, top-rated, now-playing content",
+        "Search movies with real-time results",
+        "View details via modal or page",
+        "Trending updates using Appwrite and TMDB",
+        "Responsive, mobile-first user interface",
+        "Infinite scroll or pagination supported",
+        "Loading states and error handling included",
+        "Built with React, Appwrite, TMDB API"
+      ],
+      "demo": "https://tmdb-app-delta.vercel.app/",
+      "github": "https://github.com/DaliaEltohami/TMDB-App/"
+    },
+    {
+      "id": 20,
       "title": "Dalique Stays Booking App",
       "category": "fullstack",
       "src": "/assets/portfolio/pic20.png",
